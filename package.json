@@ -1,0 +1,16 @@
+{
+  "name": "iceb-2026-role-playing-ai-slides",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@slidev/cli": "latest",
+    "slidev-theme-scholarly": "latest",
+    "playwright-chromium": "latest"
+  }
+}
