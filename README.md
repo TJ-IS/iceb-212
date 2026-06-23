@@ -4,19 +4,25 @@ This is a Slidev deck for the paper:
 
 > Unpacking the Experience Economy of Role-Playing Conversational AI: A Grounded Theory Analysis
 
-It uses `slidev-theme-scholarly`.
+It uses (`slidev-theme-scholarly`)[https://github.com/jxpeng98/slidev-theme-scholarly].
 
 ## Usage
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm dev
+```
+
+Build:
+
+```bash
+pnpm build
 ```
 
 Export to PDF:
 
 ```bash
-npm run export
+pnpm export
 ```
 
-The main file is `slides.md`. The cropped framework figure is stored in `assets/experience_framework_page4.png`.
+The main file is `slides.md`.
