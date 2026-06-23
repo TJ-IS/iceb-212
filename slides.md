@@ -4,11 +4,12 @@ title: Unpacking the Experience Economy of Role-Playing Conversational AI
 description: ICEB 2026 conference presentation slides
 authors:
   - name: Ke Xu
-    institution: Tongji University
+    institution: School of Economics and Management, Tongji University
   - name: Fangzhan Lin
-    institution: Tongji University
+    institution: School of Economics and Management, Tongji University
   - name: Zhongyun Zhou
-    institution: Tongji University
+    institution: School of Economics and Management, Tongji University
+footerLeft: K. Xu · F. Lin · Z. Zhou
 footerMiddle: The 26th International Conference on Electronic Business · Beijing · July 16–20, 2026
 class: text-left
 transition: slide-left
@@ -22,9 +23,6 @@ themeConfig:
 # Unpacking the Experience Economy of Role-Playing Conversational AI
 
 ## A Grounded Theory Analysis
-
-Ke Xu · Fangzhan Lin · Zhongyun Zhou  
-School of Economics and Management, Tongji University
 
 **ICEB 2026 · Beijing, China**
 
@@ -124,6 +122,7 @@ layout: section
 
 ---
 layout: default
+class: procedure-slide
 ---
 
 # Data and Analytical Procedure
@@ -277,6 +276,7 @@ In role-playing AI, esthetics are textual and narrative rather than physical or 
 
 ---
 layout: default
+class: escapism-slide
 ---
 
 # Escapist: Participating in Alternative Realities
@@ -407,8 +407,6 @@ layout: statement
 layout: acknowledgments
 ---
 
-# Acknowledgement
-
 <div class="closing-note">
 <p>This work was supported by the National Natural Science Foundation of China [grant number 72261160394].</p>
 <p><strong>Thank you.</strong></p>
@@ -418,7 +416,5 @@ layout: acknowledgments
 ---
 layout: references
 ---
-
-# References
 
 [[bibliography]]

@@ -39,6 +39,47 @@
   border-bottom-width: 2px;
 }
 
+.beamer-footer-left,
+.beamer-footer-center,
+.beamer-footer-right {
+  color: #fff !important;
+  font-weight: 600;
+  text-shadow: 0 1px 1px rgba(45, 10, 15, 0.35);
+}
+
+.beamer-footer-left {
+  font-size: 0.78rem;
+  letter-spacing: 0;
+}
+
+.beamer-footer-center {
+  color: #fff !important;
+  font-size: 0.8rem;
+}
+
+.beamer-footer-toolbar {
+  color: var(--slidev-theme-primary) !important;
+  background: rgba(255, 248, 250, 0.96) !important;
+  border-color: rgba(134, 38, 51, 0.32) !important;
+  box-shadow:
+    0 4px 12px rgba(45, 10, 15, 0.16),
+    inset 0 1px 0 rgba(255, 255, 255, 0.75) !important;
+}
+
+.beamer-footer-toolbar .beamer-footer-page,
+.beamer-footer-toolbar .beamer-footer-nav,
+.beamer-footer-toolbar button,
+.beamer-footer-toolbar svg {
+  color: var(--slidev-theme-primary) !important;
+  opacity: 1 !important;
+}
+
+.beamer-footer-toolbar .beamer-footer-page-total,
+.beamer-footer-toolbar .beamer-footer-page-separator {
+  color: color-mix(in srgb, var(--slidev-theme-primary) 72%, #2d1b1e 28%) !important;
+  opacity: 0.78 !important;
+}
+
 .takeaway {
   margin-top: 1rem;
   padding: 0.78rem 0.95rem;
@@ -148,6 +189,41 @@
   color: var(--slidev-theme-primary);
 }
 
+.procedure-slide h1 {
+  margin-bottom: 0.65rem;
+}
+
+.procedure-slide .process-grid {
+  gap: 0.52rem;
+  font-size: 0.84rem;
+}
+
+.procedure-slide .process-grid div {
+  padding: 0.5rem 0.68rem;
+}
+
+.procedure-slide .metric-row {
+  margin-top: 0.58rem;
+  gap: 0.68rem;
+}
+
+.procedure-slide .metric-row span {
+  padding-top: 0.3rem;
+  font-size: 0.78rem;
+  line-height: 1.24;
+}
+
+.procedure-slide .metric-row strong {
+  font-size: 1.42rem;
+}
+
+.procedure-slide .takeaway {
+  margin-top: 0.55rem;
+  padding: 0.45rem 0.7rem;
+  font-size: 0.82rem;
+  line-height: 1.25;
+}
+
 .columns-3 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -220,6 +296,45 @@
 .implication-grid p {
   font-size: 0.98rem;
   line-height: 1.48;
+}
+
+.escapism-slide h1 {
+  margin-bottom: 0.58rem;
+}
+
+.escapism-slide .realm-intro {
+  margin-top: 0;
+  margin-bottom: 0.55rem;
+  padding: 0.46rem 0.72rem;
+  font-size: 0.82rem;
+  line-height: 1.26;
+}
+
+.escapism-slide .finding-grid.four {
+  gap: 0.56rem;
+}
+
+.escapism-slide .finding-grid > div {
+  min-height: 6.35rem;
+  padding: 0.58rem 0.72rem;
+}
+
+.escapism-slide .finding-grid h3 {
+  margin-bottom: 0.32rem;
+  font-size: 0.96rem;
+  line-height: 1.16;
+}
+
+.escapism-slide .finding-grid p {
+  font-size: 0.82rem;
+  line-height: 1.34;
+}
+
+.escapism-slide .takeaway {
+  margin-top: 0.55rem;
+  padding: 0.48rem 0.72rem;
+  font-size: 0.83rem;
+  line-height: 1.28;
 }
 
 .implication-grid > div {
@@ -367,7 +482,7 @@
 }
 
 .closing-note {
-  margin-top: 1.2rem;
+  margin-top: 2.4rem;
   max-width: 44rem;
   border: 1px solid var(--border-soft);
   border-radius: 8px;
@@ -379,6 +494,34 @@
   margin: 0.25rem 0;
   font-size: 1.02rem;
   line-height: 1.45;
+}
+
+.slidev-layout.cover .author-section {
+  margin-top: 2.6rem;
+}
+
+.slidev-layout.cover .author-section > .flex {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.2rem;
+  width: min(74rem, 88%);
+  margin: 0 auto;
+}
+
+.slidev-layout.cover .author-item {
+  min-width: 0;
+  max-width: none;
+  padding: 0 0.5rem;
+}
+
+.slidev-layout.cover .author-name {
+  font-size: 1.22em;
+  line-height: 1.15;
+}
+
+.slidev-layout.cover .author-institution {
+  font-size: 0.76em;
+  line-height: 1.24;
 }
 
 @media (max-width: 900px) {
