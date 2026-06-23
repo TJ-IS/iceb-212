@@ -6,12 +6,6 @@ This is a Slidev deck for the paper:
 
 It uses [`slidev-theme-scholarly`](https://github.com/jxpeng98/slidev-theme-scholarly]).
 
-## View
-
-[https://183.iceb.008110.xyz](https://183.iceb.008110.xyz)
-
-[https://183.iceb.008110.xyz/presenter](https://183.iceb.008110.xyz/presenter)
-
 ## Usage
 
 ```bash
@@ -32,3 +26,12 @@ pnpm export
 ```
 
 The main file is `slides.md`.
+
+## View
+
+```bash
+  public slide show   > http://localhost:3030/
+  presenter mode      > http://localhost:3030/presenter/
+  slides overview     > http://localhost:3030/overview/
+  export slides       > http://localhost:3030/export/
+```
