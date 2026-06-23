@@ -1,3 +1,6 @@
+packages:
+  - .
+
 allowBuilds:
   citation-js: true
   playwright-chromium: true
